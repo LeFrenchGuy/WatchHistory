@@ -1,0 +1,713 @@
+{
+  "Alien": {
+    "Genres": [
+      "Horror",
+      "Science Fiction"
+    ],
+    "Runtime": 117,
+    "Type": "movie"
+  },
+  "The Thing": {
+    "Genres": [
+      "Horror",
+      "Mystery",
+      "Science Fiction"
+    ],
+    "Runtime": 109,
+    "Type": "movie"
+  },
+  "Aliens": {
+    "Genres": [
+      "Action",
+      "Thriller",
+      "Science Fiction"
+    ],
+    "Runtime": 137,
+    "Type": "movie"
+  },
+  "Normal People": {
+    "Genres": [
+      "Drama"
+    ],
+    "Runtime": 91,
+    "Type": "movie"
+  },
+  "Alien 3": {
+    "Genres": [
+      "Science Fiction"
+    ],
+    "Runtime": 0,
+    "Type": "movie"
+  },
+  "Alien Resurrection": {
+    "Genres": [
+      "Science Fiction",
+      "Horror",
+      "Action"
+    ],
+    "Runtime": 109,
+    "Type": "movie"
+  },
+  "The Predator": {
+    "Genres": [
+      "Science Fiction",
+      "Action",
+      "Adventure"
+    ],
+    "Runtime": 107,
+    "Type": "movie"
+  },
+  "The Predator 2": {
+    "Genres": [
+      "Horror"
+    ],
+    "Runtime": 70,
+    "Type": "movie"
+  },
+  "Alien Vs Predator": {
+    "Genres": [
+      "Adventure",
+      "Science Fiction",
+      "Action",
+      "Horror"
+    ],
+    "Runtime": 100,
+    "Type": "movie"
+  },
+  "Alien Vs Predator 2": {
+    "Genres": [
+      "Fantasy",
+      "Action",
+      "Science Fiction",
+      "Thriller",
+      "Horror"
+    ],
+    "Runtime": 94,
+    "Type": "movie"
+  },
+  "Predators": {
+    "Genres": [
+      "Science Fiction",
+      "Action",
+      "Thriller"
+    ],
+    "Runtime": 107,
+    "Type": "movie"
+  },
+  "Prometheus": {
+    "Genres": [
+      "Science Fiction",
+      "Adventure",
+      "Mystery"
+    ],
+    "Runtime": 124,
+    "Type": "movie"
+  },
+  "Alien Covenant": {
+    "Genres": [
+      "Science Fiction",
+      "Horror",
+      "Thriller"
+    ],
+    "Runtime": 122,
+    "Type": "movie"
+  },
+  "Prey": {
+    "Genres": [
+      "Action",
+      "Thriller",
+      "Horror"
+    ],
+    "Runtime": 86,
+    "Type": "movie"
+  },
+  "Blackberry": {
+    "Genres": [
+      "Comedy"
+    ],
+    "Runtime": 120,
+    "Type": "movie"
+  },
+  "Wakanda Forever": {
+    "Genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "Runtime": 162,
+    "Type": "movie"
+  },
+  "Dune": {
+    "Genres": [
+      "Science Fiction",
+      "Adventure"
+    ],
+    "Runtime": 155,
+    "Type": "movie"
+  },
+  "Echo": {
+    "Genres": [],
+    "Runtime": 7,
+    "Type": "movie"
+  },
+  "The Meg": {
+    "Genres": [
+      "Action",
+      "Science Fiction",
+      "Horror"
+    ],
+    "Runtime": 113,
+    "Type": "movie"
+  },
+  "The Meg 2": {
+    "Genres": [
+      "Action",
+      "Science Fiction",
+      "Horror"
+    ],
+    "Runtime": 116,
+    "Type": "movie"
+  },
+  "Percy Jackson And The Olympians": {
+    "Genres": [
+      "Documentary"
+    ],
+    "Runtime": 50,
+    "Type": "movie"
+  },
+  "Last Of Us": {
+    "Genres": [
+      "Documentary"
+    ],
+    "Runtime": 31,
+    "Type": "movie"
+  },
+  "The Marvels": {
+    "Genres": [
+      "Science Fiction",
+      "Adventure",
+      "Action"
+    ],
+    "Runtime": 105,
+    "Type": "movie"
+  },
+  "One Piece": {
+    "Genres": [
+      "Animation",
+      "Adventure",
+      "Action",
+      "Fantasy",
+      "Music"
+    ],
+    "Runtime": 115,
+    "Type": "movie"
+  },
+  "Dune Part 2": {
+    "Genres": [
+      "Science Fiction",
+      "Adventure"
+    ],
+    "Runtime": 167,
+    "Type": "movie"
+  },
+  "Jaws": {
+    "Genres": [
+      "Horror",
+      "Thriller",
+      "Adventure"
+    ],
+    "Runtime": 124,
+    "Type": "movie"
+  },
+  "The Beekeeper": {
+    "Genres": [
+      "Crime",
+      "Action",
+      "Thriller"
+    ],
+    "Runtime": 105,
+    "Type": "movie"
+  },
+  "Anatomy Of A Fall": {
+    "Genres": [
+      "Thriller",
+      "Mystery",
+      "Crime"
+    ],
+    "Runtime": 151,
+    "Type": "movie"
+  },
+  "Poor Things": {
+    "Genres": [
+      "Science Fiction",
+      "Romance",
+      "Comedy"
+    ],
+    "Runtime": 142,
+    "Type": "movie"
+  },
+  "Killers Of The Flower Moon": {
+    "Genres": [
+      "Crime",
+      "History",
+      "Drama"
+    ],
+    "Runtime": 206,
+    "Type": "movie"
+  },
+  "American Fiction": {
+    "Genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "Runtime": 117,
+    "Type": "movie"
+  },
+  "Mr And Mrs Smith": {
+    "Genres": [
+      "Action",
+      "Comedy",
+      "Drama",
+      "Thriller"
+    ],
+    "Runtime": 119,
+    "Type": "movie"
+  },
+  "Past Lives": {
+    "Genres": [
+      "Drama",
+      "Romance"
+    ],
+    "Runtime": 106,
+    "Type": "movie"
+  },
+  "Wonka": {
+    "Genres": [
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ],
+    "Runtime": 117,
+    "Type": "movie"
+  },
+  "Avatar The Last Airbender": {
+    "Genres": [],
+    "Runtime": 0,
+    "Type": "movie"
+  },
+  "Society Of The Snow": {
+    "Genres": [
+      "Drama",
+      "History"
+    ],
+    "Runtime": 144,
+    "Type": "movie"
+  },
+  "Aquaman And The Lost Kingdom": {
+    "Genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "Runtime": 124,
+    "Type": "movie"
+  },
+  "Road House": {
+    "Genres": [
+      "Action",
+      "Thriller"
+    ],
+    "Runtime": 121,
+    "Type": "movie"
+  },
+  "Argylle": {
+    "Genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "Runtime": 139,
+    "Type": "movie"
+  },
+  "Land Of Bad": {
+    "Genres": [
+      "Action",
+      "War",
+      "Thriller"
+    ],
+    "Runtime": 113,
+    "Type": "movie"
+  },
+  "Monkey Man": {
+    "Genres": [
+      "Action",
+      "Thriller"
+    ],
+    "Runtime": 121,
+    "Type": "movie"
+  },
+  "Godzilla X Kong: The New Empire": {
+    "Genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "Runtime": 115,
+    "Type": "movie"
+  },
+  "Maestro": {
+    "Genres": [
+      "Drama",
+      "Romance",
+      "Music"
+    ],
+    "Runtime": 129,
+    "Type": "movie"
+  },
+  "Kingdom Of The Planet Of The Apes": {
+    "Genres": [
+      "Science Fiction",
+      "Adventure",
+      "Action"
+    ],
+    "Runtime": 145,
+    "Type": "movie"
+  },
+  "Rise Of The Planet Of The Apes": {
+    "Genres": [
+      "Thriller",
+      "Action",
+      "Drama",
+      "Science Fiction"
+    ],
+    "Runtime": 105,
+    "Type": "movie"
+  },
+  "Dawn Of The Planet Of The Apes": {
+    "Genres": [
+      "Science Fiction",
+      "Action",
+      "Drama",
+      "Thriller"
+    ],
+    "Runtime": 130,
+    "Type": "movie"
+  },
+  "War For The Planet Of The Apes": {
+    "Genres": [
+      "Drama",
+      "Science Fiction",
+      "War"
+    ],
+    "Runtime": 140,
+    "Type": "movie"
+  },
+  "The Fall Guy": {
+    "Genres": [
+      "Action",
+      "Comedy",
+      "Romance"
+    ],
+    "Runtime": 126,
+    "Type": "movie"
+  },
+  "Xmen 97": {
+    "Genres": [
+      "Documentary"
+    ],
+    "Runtime": 56,
+    "Type": "movie"
+  },
+  "Mad Max Fury Road": {
+    "Genres": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "Runtime": 121,
+    "Type": "movie"
+  },
+  "Furiosa": {
+    "Genres": [
+      "Action",
+      "Science Fiction",
+      "Adventure"
+    ],
+    "Runtime": 149,
+    "Type": "movie"
+  },
+  "Civil War": {
+    "Genres": [
+      "War",
+      "Action",
+      "Drama"
+    ],
+    "Runtime": 109,
+    "Type": "movie"
+  },
+  "The Ministry Of Ungentlemanly Warfare": {
+    "Genres": [
+      "Action",
+      "Comedy",
+      "War"
+    ],
+    "Runtime": 120,
+    "Type": "movie"
+  },
+  "Kung Fu Panda 4": {
+    "Genres": [
+      "Animation",
+      "Family",
+      "Fantasy",
+      "Action"
+    ],
+    "Runtime": 94,
+    "Type": "movie"
+  },
+  "Challengers": {
+    "Genres": [
+      "Romance",
+      "Drama"
+    ],
+    "Runtime": 132,
+    "Type": "movie"
+  },
+  "Ghostbusters: Frozen Empire": {
+    "Genres": [
+      "Fantasy",
+      "Adventure",
+      "Comedy"
+    ],
+    "Runtime": 115,
+    "Type": "movie"
+  },
+  "The Hunger Games: The Ballad Of Songbirds & Snakes": {
+    "Genres": [
+      "Drama",
+      "Science Fiction",
+      "Action"
+    ],
+    "Runtime": 157,
+    "Type": "movie"
+  },
+  "True Detective": {
+    "Genres": [
+      "Drama",
+      "Mystery",
+      "Horror"
+    ],
+    "Runtime": 8,
+    "Type": "movie"
+  },
+  "Hit Man": {
+    "Genres": [
+      "Comedy",
+      "Romance",
+      "Crime"
+    ],
+    "Runtime": 116,
+    "Type": "movie"
+  },
+  "Les Visiteurs": {
+    "Genres": [
+      "Fantasy",
+      "Comedy"
+    ],
+    "Runtime": 107,
+    "Type": "movie"
+  },
+  "The Iron Claw": {
+    "Genres": [
+      "History",
+      "Drama"
+    ],
+    "Runtime": 132,
+    "Type": "movie"
+  },
+  "If": {
+    "Genres": [
+      "Comedy",
+      "Fantasy",
+      "Family"
+    ],
+    "Runtime": 104,
+    "Type": "movie"
+  },
+  "A Quiet Place": {
+    "Genres": [
+      "Horror",
+      "Drama",
+      "Science Fiction"
+    ],
+    "Runtime": 91,
+    "Type": "movie"
+  },
+  "A Quiet Place 2": {
+    "Genres": [
+      "Horror",
+      "Drama",
+      "Science Fiction"
+    ],
+    "Runtime": 91,
+    "Type": "movie"
+  },
+  "A Quiet Place: Day One": {
+    "Genres": [
+      "Horror",
+      "Science Fiction",
+      "Thriller"
+    ],
+    "Runtime": 99,
+    "Type": "movie"
+  },
+  "Batman: Caped Crusader": {
+    "Genres": [
+      "Action",
+      "Animation",
+      "Adventure",
+      "Crime",
+      "Science Fiction"
+    ],
+    "Runtime": 78,
+    "Type": "movie"
+  },
+  "Despicable Me 4": {
+    "Genres": [
+      "Animation",
+      "Family",
+      "Comedy",
+      "Action"
+    ],
+    "Runtime": 94,
+    "Type": "movie"
+  },
+  "Le Comte De Monte Cristo": {
+    "Genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "History",
+      "Romance",
+      "Thriller"
+    ],
+    "Runtime": 178,
+    "Type": "movie"
+  },
+  "Alien Romulus": {
+    "Genres": [
+      "Science Fiction",
+      "Horror"
+    ],
+    "Runtime": 119,
+    "Type": "movie"
+  },
+  "Demon Slayer": {
+    "Genres": [
+      "Animation",
+      "Action",
+      "Fantasy",
+      "Thriller"
+    ],
+    "Runtime": 103,
+    "Type": "movie"
+  },
+  "Demon Slayer: The Movie: Mugen Train": {
+    "Genres": [
+      "Animation",
+      "Action",
+      "Fantasy",
+      "Thriller"
+    ],
+    "Runtime": 117,
+    "Type": "movie"
+  },
+  "Twisters": {
+    "Genres": [
+      "Thriller",
+      "Action"
+    ],
+    "Runtime": 123,
+    "Type": "movie"
+  },
+  "Bad Boys: Ride Or Die": {
+    "Genres": [
+      "Action",
+      "Comedy"
+    ],
+    "Runtime": 115,
+    "Type": "movie"
+  },
+  "Inside Out 2": {
+    "Genres": [
+      "Animation",
+      "Family",
+      "Adventure",
+      "Comedy",
+      "Drama"
+    ],
+    "Runtime": 97,
+    "Type": "movie"
+  },
+  "Fallout": {
+    "Genres": [
+      "Thriller",
+      "Drama",
+      "Crime"
+    ],
+    "Runtime": 90,
+    "Type": "movie"
+  },
+  "The Bikeriders": {
+    "Genres": [
+      "Crime",
+      "Drama"
+    ],
+    "Runtime": 116,
+    "Type": "movie"
+  },
+  "3 Body Problem": {
+    "Genres": [
+      "Drama"
+    ],
+    "Runtime": 106,
+    "Type": "movie"
+  },
+  "Transformers One": {
+    "Genres": [
+      "Animation",
+      "Science Fiction",
+      "Adventure",
+      "Family"
+    ],
+    "Runtime": 104,
+    "Type": "movie"
+  },
+  "Rebel Ridge": {
+    "Genres": [
+      "Crime",
+      "Action",
+      "Thriller",
+      "Drama"
+    ],
+    "Runtime": 132,
+    "Type": "movie"
+  },
+  "Bodies": {
+    "Genres": [
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "Runtime": 109,
+    "Type": "movie"
+  },
+  "Joker: Folie \u00c3\u00a0 Deux": {
+    "Genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "Runtime": 138,
+    "Type": "movie"
+  }
+}
