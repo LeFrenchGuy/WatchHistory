@@ -7,6 +7,7 @@ import seaborn as sns
 import os  # Import the os module for file and directory operations
 import json
 from constants import TMDB_API_KEY
+import re
 
 filename = "entertainment.txt"
 db_path = "com.plexapp.plugins.library.db"
@@ -31,6 +32,37 @@ tv_api = TV()
 
 # Initial data (abbreviated example for runtime)
 entries = []
+not_found_titles = []
+
+def clean_title_and_extract_date(line):
+    """Clean title, extract date, and check for cinema label."""
+    # Default values
+    title = ''
+    date = ''
+    is_cinema = False
+
+    # Try to match a date pattern and the cinema label in the line
+    date_pattern = r"\((\d{2}-\d{2})\)"  # Pattern for dates like (mm-dd)
+    cinema_pattern = r"\(cinema\)"
+
+    # Search for the date and cinema pattern in the line
+    date_match = re.search(date_pattern, line)
+    cinema_match = re.search(cinema_pattern, line, re.IGNORECASE)  # Case-insensitive search
+
+    # If a date is found, extract it
+    if date_match:
+        date = date_match.group(1)  # Extract date (mm-dd)
+        line = line.replace(date_match.group(0), "")  # Remove the date from the title
+
+    # Check if "cinema" exists and remove it
+    if cinema_match:
+        is_cinema = True
+        line = line.replace(cinema_match.group(0), "").strip()  # Remove "(cinema)"
+
+    # Clean the title, strip excess whitespace, and capitalize properly
+    title = line.strip().title()
+
+    return title, date, is_cinema
 
 def fetch_tmdb_details(title):
   """Fetch genres, runtime, and type (movie or TV) using TMDb."""
@@ -38,7 +70,6 @@ def fetch_tmdb_details(title):
 
      # Check if the title is in the cache
     if title in cache:
-      print(f"Found '{title}' in cache.")
       return cache[title]
     
     # Search for both movies and TV shows
@@ -46,11 +77,11 @@ def fetch_tmdb_details(title):
     tv_results = tv_api.search(title)
 
     # Prioritize movies, fallback to TV shows
-    if movie_results:
+    if movie_results and movie_results.total_results > 0:
       item = movie_results[0]
       details = movie_api.details(item.id)
       kind = "movie"
-    elif tv_results:
+    elif tv_results and tv_results.total_results > 0:
       item = tv_results[0]
       details = tv_api.details(item.id)
       kind = "tv"
@@ -64,14 +95,9 @@ def fetch_tmdb_details(title):
 
     # Extract genres, runtime, and type
     genres = [genre['name'] for genre in details.genres]
-    runtime = details.runtime or 0  # Runtime in minutes (0 if unavailable)
-    print("genres:") 
-    print(genres) 
-    print("runtime:") 
-    print(runtime) 
-    print("kind:") 
-    print(kind) 
-
+    runtime = getattr(details, 'runtime', 0)  # Runtime in minutes (0 if unavailable)
+    if runtime == 0:
+       print(f"Runtime missing for '{title}' ({kind})")
     data = {
         'Genres': genres,
         'Runtime': runtime,
@@ -84,28 +110,20 @@ def fetch_tmdb_details(title):
       json.dump(cache, f, indent=2)
 
     return data
-
-
   except Exception as e:
-    print(f"Error fetching details for {title}: {e}")
+    print(f"An error occurred while fetching data for '{title}': {e}")
     return None
   
-with open(filename, 'r') as file:
+with open(filename, 'r', encoding='utf-8') as file:
     for line in file:
         # Strip leading/trailing whitespace
         line = line.strip()
 
         # Find the first occurrence of '(' for date extraction
         if '(' in line and ')' in line:
-            title, rest = line.split(" (", 1)
-            date = rest.split(")")[0].strip()  # Extract date from the first parenthesis
-            # Check if "cinema" exists in the remaining part of the line
-            is_cinema = "cinema" in rest.lower()
+            title, date, is_cinema = clean_title_and_extract_date(line)
         else:
-            # If no parentheses are found, assume the whole line is the title with no date or cinema info
-            title = line
-            date = ""
-            is_cinema = False
+            continue  
 
         # Capitalize title and strip extra spaces
         title = title.title().strip()
@@ -120,8 +138,6 @@ enhanced_data = []
 for entry in entries:
   details = fetch_tmdb_details(entry.title)
   if details:
-    print("details:") 
-    print(details) 
     enhanced_data.append({
         "Title": entry.title,
         "Date_Watched": entry.date,
@@ -130,16 +146,36 @@ for entry in entries:
         "Type": details['Type']
     })
   else:
-    print(f"No details found for {title}.")
+    not_found_titles.append(entry.title)
 
+if not_found_titles:
+    print("The following titles could not be fetched:")
+    print("\n".join(not_found_titles))
 
 df = pd.DataFrame(enhanced_data)
+# Display the initial data for verification
+print(df.head())
 
-# Convert 'Date_Watched' to datetime and add month/week columns
-df['Date_Watched'] = pd.to_datetime(df['Date_Watched'], errors='coerce')
+YEAR = "2024"
+
+# Add the year to 'Date_Watched' before converting to datetime
+df['Date_Watched'] = df['Date_Watched'].apply(lambda x: f"{YEAR}-{x}" if pd.notna(x) and '-' in x else x)
+
+# Convert 'Date_Watched' to datetime
+df['Date_Watched'] = pd.to_datetime(df['Date_Watched'], format='%Y-%m-%d', errors='coerce')
+
+# Check for invalid dates
+invalid_dates = df[df['Date_Watched'].isna()]
+if not invalid_dates.empty:
+  print("The following entries have invalid or missing dates:")
+  print(invalid_dates[['Title', 'Date_Watched']])
+
+# Add Month and Week columns for analysis
 df['Month'] = df['Date_Watched'].dt.month
-#df['Week'] = df['Date_Watched'].dt.isocalendar().week
+df['Week'] = df['Date_Watched'].dt.isocalendar().week
 
+# Display the cleaned and augmented data
+print(df.head())
 
 # Display the initial data for verification
 print(df.head())

@@ -137,6 +137,10 @@
     "Runtime": 162,
     "Type": "movie"
   },
+  "What If S2": null,
+  "Loki S2": null,
+  "Invisible S1 + S2P1": null,
+  "Coach Prime S2": null,
   "Dune": {
     "Genres": [
       "Science Fiction",
@@ -175,6 +179,7 @@
     "Runtime": 50,
     "Type": "movie"
   },
+  "Rick And Morty Season 7": null,
   "Last Of Us": {
     "Genres": [
       "Documentary"
@@ -190,6 +195,14 @@
     ],
     "Runtime": 105,
     "Type": "movie"
+  },
+  "Reacher S2": null,
+  "Merci Internet": {
+    "Genres": [
+      "Documentary"
+    ],
+    "Runtime": 0,
+    "Type": "tv"
   },
   "One Piece": {
     "Genres": [
@@ -263,6 +276,7 @@
     "Runtime": 117,
     "Type": "movie"
   },
+  "The Batman 2001-2004": null,
   "Mr And Mrs Smith": {
     "Genres": [
       "Action",
@@ -273,6 +287,7 @@
     "Runtime": 119,
     "Type": "movie"
   },
+  "Avatar Netflix S1": null,
   "Past Lives": {
     "Genres": [
       "Drama",
@@ -311,6 +326,24 @@
     ],
     "Runtime": 124,
     "Type": "movie"
+  },
+  "Scavengers Reign": {
+    "Genres": [
+      "Sci-Fi & Fantasy",
+      "Drama",
+      "Animation"
+    ],
+    "Runtime": 0,
+    "Type": "tv"
+  },
+  "Murder At The End Of The World": {
+    "Genres": [
+      "Mystery",
+      "Drama",
+      "Crime"
+    ],
+    "Runtime": 0,
+    "Type": "tv"
   },
   "Road House": {
     "Genres": [
@@ -454,6 +487,7 @@
     "Runtime": 120,
     "Type": "movie"
   },
+  "Invincible S2 P2": null,
   "Kung Fu Panda 4": {
     "Genres": [
       "Animation",
@@ -490,6 +524,7 @@
     "Runtime": 157,
     "Type": "movie"
   },
+  "Bad Batch S3": null,
   "True Detective": {
     "Genres": [
       "Drama",
@@ -497,6 +532,24 @@
       "Horror"
     ],
     "Runtime": 8,
+    "Type": "movie"
+  },
+  "The Bear Season 3": null,
+  "Star Wars: The Acolyte": {
+    "Genres": [
+      "Mystery",
+      "Sci-Fi & Fantasy"
+    ],
+    "Runtime": 0,
+    "Type": "tv"
+  },
+  "Welcome To Wrexham S3": null,
+  "Le Pr\u00e9nom": {
+    "Genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "Runtime": 109,
     "Type": "movie"
   },
   "Hit Man": {
@@ -522,6 +575,15 @@
       "Drama"
     ],
     "Runtime": 132,
+    "Type": "movie"
+  },
+  "Deadpool & Wolverine": {
+    "Genres": [
+      "Action",
+      "Comedy",
+      "Science Fiction"
+    ],
+    "Runtime": 128,
     "Type": "movie"
   },
   "If": {
@@ -571,6 +633,7 @@
     "Runtime": 78,
     "Type": "movie"
   },
+  "The Boys S4": null,
   "Despicable Me 4": {
     "Genres": [
       "Animation",
@@ -611,6 +674,7 @@
     "Runtime": 103,
     "Type": "movie"
   },
+  "Demon Slayer: Kimetsu No Yaiba Season 1": null,
   "Demon Slayer: The Movie: Mugen Train": {
     "Genres": [
       "Animation",
@@ -621,6 +685,9 @@
     "Runtime": 117,
     "Type": "movie"
   },
+  "Demon Slayer Season 2 - Entertainment District Arc": null,
+  "Demon Slayer: Kimetsu No Yaiba Season 3 - Swordsmith Village Arc": null,
+  "Demon Slayer: Kimetsu No Yaiba Season 4 - Hashira Training Arc": null,
   "Twisters": {
     "Genres": [
       "Thriller",
@@ -672,6 +739,15 @@
     "Runtime": 106,
     "Type": "movie"
   },
+  "Terminator Zero": {
+    "Genres": [
+      "Animation",
+      "Sci-Fi & Fantasy",
+      "Action & Adventure"
+    ],
+    "Runtime": 0,
+    "Type": "tv"
+  },
   "Transformers One": {
     "Genres": [
       "Animation",
@@ -692,6 +768,34 @@
     "Runtime": 132,
     "Type": "movie"
   },
+  "Castlevania S1-4": null,
+  "Castlevania: Nocturne S1": null,
+  "Silo S1": null,
+  "Rings Of Power S2": null,
+  "Pax Massilia": {
+    "Genres": [
+      "Action & Adventure",
+      "Crime",
+      "Drama"
+    ],
+    "Runtime": 0,
+    "Type": "tv"
+  },
+  "Tomb Raider: The Legend Of Lara Croft": {
+    "Genres": [
+      "Action & Adventure",
+      "Animation"
+    ],
+    "Runtime": 0,
+    "Type": "tv"
+  },
+  "Hitler And The Nazis: Evil On Trial": {
+    "Genres": [
+      "Documentary"
+    ],
+    "Runtime": 0,
+    "Type": "tv"
+  },
   "Bodies": {
     "Genres": [
       "Drama",
@@ -701,7 +805,7 @@
     "Runtime": 109,
     "Type": "movie"
   },
-  "Joker: Folie \u00c3\u00a0 Deux": {
+  "Joker: Folie \u00c0 Deux": {
     "Genres": [
       "Drama",
       "Crime",
@@ -709,5 +813,115 @@
     ],
     "Runtime": 138,
     "Type": "movie"
-  }
+  },
+  "Avatar: The Last Airbender": {
+    "Genres": [],
+    "Runtime": 0,
+    "Type": "movie"
+  },
+  "My Neighbor Totoro": {
+    "Genres": [
+      "Fantasy",
+      "Animation",
+      "Family"
+    ],
+    "Runtime": 86,
+    "Type": "movie"
+  },
+  "The Wild Robot": {
+    "Genres": [
+      "Animation",
+      "Science Fiction",
+      "Family"
+    ],
+    "Runtime": 102,
+    "Type": "movie"
+  },
+  "Agatha All Along": {
+    "Genres": [
+      "Sci-Fi & Fantasy",
+      "Mystery"
+    ],
+    "Runtime": 0,
+    "Type": "tv"
+  },
+  "Alien (01-02)": null,
+  "The Thing (01-03)": null,
+  "Aliens (01-04)": null,
+  "Normal People (01-04)": null,
+  "Alien 3 (01-08)": null,
+  "Alien Resurrection (01-09)": null,
+  "The Predator (01-11)": null,
+  "The Predator 2 (01-12)": null,
+  "Alien Vs Predator (01-13)": null,
+  "Alien Vs Predator 2 (01-14)": null,
+  "Predators (01-15)": null,
+  "Prometheus (01-16)": null,
+  "Alien Covenant (01-17)": null,
+  "The Predator (01-18)": null,
+  "Prey (01-18)": null,
+  "Blackberry (01-19)": null,
+  "Wakanda Forever (01-19)": null,
+  "What If S2 (01-22)": null,
+  "Loki S2 (01-23)": null,
+  "Invisible S1 + S2P1 (01-25)": null,
+  "Coach Prime S2 (01-27)": null,
+  "Dune (01-28)": null,
+  "Echo (01-30)": null,
+  "The Meg (01-31)": null,
+  "The Meg 2 (02-01)": null,
+  "Percy Jackson And The Olympians (02-02)": null,
+  "Rick And Morty Season 7 (02-04)": null,
+  "Last Of Us (02-10)": null,
+  "The Marvels (02-12)": null,
+  "Reacher S2 (02-15)": null,
+  "Merci Internet (02-17)": null,
+  "One Piece (02-28)": null,
+  "Jaws (03-04)": null,
+  "The Beekeeper (03-06)": null,
+  "Anatomy Of A Fall (03-07)": null,
+  "Poor Things (03-08)": null,
+  "Killers Of The Flower Moon (03-09)": null,
+  "American Fiction (03-10)": null,
+  "The Batman 2001-2004 (03-10)": null,
+  "Mr And Mrs Smith  (03-11)": null,
+  "Avatar Netflix S1 (03-13)": null,
+  "Past Lives (03-14)": null,
+  "Wonka (03-16)": null,
+  "Avatar: The Last Airbender (03-22)": null,
+  "Society Of The Snow (03-23)": null,
+  "Aquaman And The Lost Kingdom (03-25)": null,
+  "Scavengers Reign (03-28)": null,
+  "Murder At The End Of The World (04-01)": null,
+  "Road House (04-03)": null,
+  "Argylle (04-04)": null,
+  "Land Of Bad (04-06)": null,
+  "Maestro (04-14)": null,
+  "Rise Of The Planet Of The Apes (05-18)": null,
+  "Dawn Of The Planet Of The Apes (05-18)": null,
+  "War For The Planet Of The Apes (05-19)": null,
+  "The Fall Guy (05-23)": null,
+  "Xmen 97 (05-24)": null,
+  "Mad Max Fury Road (05-26)": null,
+  "Civil War (06-01)": null,
+  "The Ministry Of Ungentlemanly Warfare (06-05)": null,
+  "Invincible S2 P2 (06-06)": null,
+  "Kung Fu Panda 4 (06-06)": null,
+  "Challengers  (06-08)": null,
+  "Ghostbusters: Frozen Empire (06-09)": null,
+  "The Hunger Games: The Ballad Of Songbirds & Snakes (06-09)": null,
+  "Bad Batch S3 (06-12)": null,
+  "True Detective  (07-01)": null,
+  "The Bear Season 3 (07-11)": null,
+  "Star Wars: The Acolyte (07-24)": null,
+  "Welcome To Wrexham S3 (07-26)": null,
+  "Le Pr\u00e9nom (07-25)": null,
+  "Hit Man (07-27)": null,
+  "Les Visiteurs (07-28)": null,
+  "The Iron Claw (07-29)": null,
+  "If (07-31)": null,
+  "A Quiet Place (07-31)": null,
+  "A Quiet Place 2 (08-01)": null,
+  "Le Comte De Monte Cristo  (Cinema)": null,
+  "Transformers One  (Cinema Imax 3D)": null
 }
